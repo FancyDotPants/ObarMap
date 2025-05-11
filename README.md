@@ -21,16 +21,6 @@ npm run serve
 ```
 npm run build
 ```
-### API Integration
-The application integrates with the Achareh API for address management. The API endpoints used are:
-- GET https://stage.achareh.ir/api/karfarmas/address - To fetch all saved addresses
-- POST https://stage.achareh.ir/api/karfarmas/address - To save a new address
-### Google Maps Integration
-This application uses Google Maps API for location selection. Make sure to:
-1. Replace the API key in `src/config/index.js` with your own Google Maps API key
-2. Enable the Maps JavaScript API in your Google Cloud Console
-Setting up the Project
-Create a new project using Vue CLI:
 ```
 npm create vue@latest vue-maps-project
 ```
